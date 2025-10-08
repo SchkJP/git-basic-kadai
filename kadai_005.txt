@@ -12,6 +12,7 @@ hello_world.txt
 On branch main
 nothing to commit, working tree clean
 
+
 sachikaarai@Mac git_challenge % echo "こんにちは、世界！" >> hello_world.txt
 sachikaarai@Mac git_challenge % cat hello_world.txt
 Hello, world
