@@ -1,0 +1,44 @@
+% mkdir git_challenge
+% mv git_challenge ./desktop
+% cd desktop/git_challenge 
+% touch hello_world.txt
+% ls
+hello_world.txt
+% git init
+% echo "Hello, world" > hello_world.txt
+% git add /Users/sachikaarai/Desktop/git_challenge
+% git commit -m “1回目のコミット”
+% git status
+On branch main
+nothing to commit, working tree clean
+
+sachikaarai@Mac git_challenge % echo "こんにちは、世界！" >> hello_world.txt
+sachikaarai@Mac git_challenge % cat hello_world.txt
+Hello, world
+こんにちは、世界！
+sachikaarai@Mac git_challenge % 
+sachikaarai@Mac git_challenge % 
+sachikaarai@Mac git_challenge % git add hello_world.txt
+sachikaarai@Mac git_challenge % git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   hello_world.txt
+
+sachikaarai@Mac git_challenge % git commit -m "2回目のコミット"
+[main bf8805b] 2回目のコミット
+ 1 file changed, 1 insertion(+)
+sachikaarai@Mac git_challenge % 
+sachikaarai@Mac git_challenge % 
+sachikaarai@Mac git_challenge % git status                     
+On branch main
+nothing to commit, working tree clean
+sachikaarai@Mac git_challenge % 
+sachikaarai@Mac git_challenge % 
+sachikaarai@Mac git_challenge % 
+sachikaarai@Mac git_challenge % git log --oneline
+bf8805b (HEAD -> main) 2回目のコミット
+5f0e480 1回目のコミット
+sachikaarai@Mac git_challenge % 
+sachikaarai@Mac git_challenge % 
+sachikaarai@Mac git_challenge % 
